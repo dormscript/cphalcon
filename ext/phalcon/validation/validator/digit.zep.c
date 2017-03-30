@@ -90,7 +90,7 @@ PHP_METHOD(Phalcon_Validation_Validator_Digit, validate) {
 	zephir_check_call_status();
 	_0 = Z_TYPE_P(value) == IS_LONG;
 	if (!(_0)) {
-		ZEPHIR_CALL_FUNCTION(&_1, "ctype_digit", NULL, 473, value);
+		ZEPHIR_CALL_FUNCTION(&_1, "ctype_digit", NULL, 472, value);
 		zephir_check_call_status();
 		_0 = zephir_is_true(_1);
 	}
